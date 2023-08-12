@@ -1,3 +1,9 @@
 <resources>
   <string name="app_name">CattleSense</string>
+  <string name="login">Login</string>
+  <string name="welcome_to">Welcome to</string>
+  <string name="farm_info">Farm Info</string>
+  <string name="cattle_info">Cattle Info</string>
+  <string name="cattle_health">Cattle Health</string>
+  <string name="search_cattle">Search Cattle</string>
 </resources>
