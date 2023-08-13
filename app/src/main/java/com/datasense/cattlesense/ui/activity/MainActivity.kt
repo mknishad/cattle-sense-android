@@ -15,7 +15,26 @@ class MainActivity : AppCompatActivity() {
     binding = ActivityMainBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
-    //supportActionBar?.setDisplayShowHomeEnabled(true)
+
+    initViews()
+  }
+
+  private fun initViews() {
+    binding.farmInfoLayout.setOnClickListener {
+
+    }
+
+    binding.cattleInfoLayout.setOnClickListener {
+
+    }
+
+    binding.cattleHealthLayout.setOnClickListener {
+
+    }
+
+    binding.searchCattleLayout.setOnClickListener {
+
+    }
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {

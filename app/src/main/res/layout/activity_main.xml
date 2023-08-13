@@ -18,107 +18,150 @@
       android:id="@+id/titleTextView"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="64dp"
-      android:layout_marginBottom="64dp"
+      android:layout_marginVertical="64dp"
       android:text="@string/app_name"
       android:textSize="40sp"
-      app:layout_constraintBottom_toTopOf="@id/farmInfoImageView"
+      app:layout_constraintBottom_toTopOf="@id/farmInfoLayout"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent" />
 
-  <ImageView
-      android:id="@+id/farmInfoImageView"
-      android:layout_width="100dp"
-      android:layout_height="100dp"
-      android:src="@mipmap/ic_launcher"
-      app:layout_constraintBottom_toTopOf="@+id/cattleHealthImageView"
-      app:layout_constraintEnd_toStartOf="@id/cattleInfoImageView"
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/farmInfoLayout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toTopOf="@+id/cattleHealthLayout"
+      app:layout_constraintEnd_toStartOf="@id/cattleInfoLayout"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_chainStyle="packed" />
+      app:layout_constraintVertical_chainStyle="packed">
 
-  <TextView
-      android:id="@+id/farmInfoTextView"
-      android:layout_width="0dp"
+    <ImageView
+        android:id="@+id/farmInfoImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/farm_info" />
+
+    <TextView
+        android:id="@+id/farmInfoTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="center"
+        android:text="@string/farm_info"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/farmInfoImageView" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/cattleInfoLayout"
+      android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="8dp"
-      android:gravity="center"
-      android:text="@string/farm_info"
-      android:textSize="20sp"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="@id/farmInfoImageView"
-      app:layout_constraintStart_toStartOf="@id/farmInfoImageView"
-      app:layout_constraintTop_toBottomOf="@id/farmInfoImageView" />
-
-  <ImageView
-      android:id="@+id/cattleInfoImageView"
-      android:layout_width="100dp"
-      android:layout_height="100dp"
-      android:src="@mipmap/ic_launcher"
-      app:layout_constraintBottom_toTopOf="@+id/searchCattleImageView"
+      app:layout_constraintBottom_toTopOf="@+id/searchCattleLayout"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toEndOf="@id/farmInfoImageView"
+      app:layout_constraintStart_toEndOf="@id/farmInfoLayout"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_chainStyle="packed" />
+      app:layout_constraintVertical_chainStyle="packed">
 
-  <TextView
-      android:id="@+id/cattleInfoTextView"
-      android:layout_width="0dp"
+    <ImageView
+        android:id="@+id/cattleInfoImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/cattle_info" />
+
+    <TextView
+        android:id="@+id/cattleInfoTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="center"
+        android:text="@string/cattle_info"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cattleInfoImageView" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/cattleHealthLayout"
+      android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="8dp"
-      android:gravity="center"
-      android:text="@string/cattle_info"
-      android:textSize="20sp"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="@id/cattleInfoImageView"
-      app:layout_constraintStart_toStartOf="@id/cattleInfoImageView"
-      app:layout_constraintTop_toBottomOf="@id/cattleInfoImageView" />
-
-  <ImageView
-      android:id="@+id/cattleHealthImageView"
-      android:layout_width="100dp"
-      android:layout_height="100dp"
       android:layout_marginTop="64dp"
-      android:src="@mipmap/ic_launcher"
       app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toStartOf="@id/searchCattleImageView"
+      app:layout_constraintEnd_toStartOf="@id/searchCattleLayout"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/farmInfoImageView" />
+      app:layout_constraintTop_toBottomOf="@+id/farmInfoLayout">
 
-  <TextView
-      android:id="@+id/cattleHealthTextView"
-      android:layout_width="0dp"
+    <ImageView
+        android:id="@+id/cattleHealthImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/cattle_health" />
+
+    <TextView
+        android:id="@+id/cattleHealthTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="center"
+        android:text="@string/cattle_health"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cattleHealthImageView" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/searchCattleLayout"
+      android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="8dp"
-      android:gravity="center"
-      android:text="@string/cattle_health"
-      android:textSize="20sp"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="@id/cattleHealthImageView"
-      app:layout_constraintStart_toStartOf="@id/cattleHealthImageView"
-      app:layout_constraintTop_toBottomOf="@id/cattleHealthImageView" />
-
-  <ImageView
-      android:id="@+id/searchCattleImageView"
-      android:layout_width="100dp"
-      android:layout_height="100dp"
       android:layout_marginTop="64dp"
-      android:src="@mipmap/ic_launcher"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toEndOf="@id/cattleHealthImageView"
-      app:layout_constraintTop_toBottomOf="@+id/cattleInfoImageView" />
+      app:layout_constraintStart_toEndOf="@id/cattleHealthLayout"
+      app:layout_constraintTop_toBottomOf="@+id/cattleInfoLayout">
 
-  <TextView
-      android:id="@+id/searchCattleTextView"
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="8dp"
-      android:gravity="center"
-      android:text="@string/search_cattle"
-      android:textSize="20sp"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="@id/searchCattleImageView"
-      app:layout_constraintStart_toStartOf="@id/searchCattleImageView"
-      app:layout_constraintTop_toBottomOf="@id/searchCattleImageView" />
+    <ImageView
+        android:id="@+id/searchCattleImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/search_cattle" />
+
+    <TextView
+        android:id="@+id/searchCattleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="center"
+        android:text="@string/search_cattle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchCattleImageView" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
