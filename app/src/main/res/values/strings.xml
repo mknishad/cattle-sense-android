@@ -1,3 +1,21 @@
 <resources>
   <string name="app_name">CattleSense</string>
+  <string name="login">Login</string>
+  <string name="welcome_to">Welcome to</string>
+  <string name="farm_info">Farm Info</string>
+  <string name="cattle_info">Cattle Info</string>
+  <string name="cattle_health">Cattle Health</string>
+  <string name="search_cattle">Search Cattle</string>
+  <string name="add_farm_info">Add Farm Info</string>
+  <string name="farm_overview">Farm Overview</string>
+  <string name="expense">Expense</string>
+  <string name="income">Income</string>
+  <string name="farm_inspection">Farm Inspection</string>
+  <string name="vaccine_and_deworming_calendar">Vaccine and Deworming Calendar</string>
+  <string name="add_new_cattle">Add New Cattle</string>
+  <string name="cattle_list">Cattle List</string>
+  <string name="milk_production">Milk Production</string>
+  <string name="weight_tracker">Weight Tracker</string>
+  <string name="death_record">Death Record</string>
+  <string name="heat_notification_alert">Heat Notification Alert</string>
 </resources>

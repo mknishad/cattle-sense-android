@@ -13,6 +13,15 @@
       android:theme="@style/Theme.CattleSense"
       tools:targetApi="31">
     <activity
+        android:name=".ui.activity.CattleInfoActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.FarmInfoActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.MainActivity"
+        android:exported="false" />
+    <activity
         android:name=".ui.activity.LoginActivity"
         android:exported="true">
       <intent-filter>
