@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     binding.cattleInfoLayout.setOnClickListener {
-
+      startActivity(Intent(this, CattleInfoActivity::class.java))
     }
 
     binding.cattleHealthLayout.setOnClickListener {

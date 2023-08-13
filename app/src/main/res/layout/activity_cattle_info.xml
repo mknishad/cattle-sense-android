@@ -4,207 +4,207 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.FarmInfoActivity">
+    tools:context=".ui.activity.CattleInfoActivity">
 
   <androidx.constraintlayout.widget.ConstraintLayout
-      android:id="@+id/addFarmInfoLayout"
+      android:id="@+id/addNewCattleLayout"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="48dp"
-      app:layout_constraintEnd_toStartOf="@id/farmOverviewLayout"
+      app:layout_constraintEnd_toStartOf="@id/cattleListLayout"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="parent"
       app:layout_constraintTop_toTopOf="parent">
 
     <ImageView
-        android:id="@+id/addFarmInfoImageView"
+        android:id="@+id/addNewCattleImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:contentDescription="@string/add_farm_info"
+        android:contentDescription="@string/add_new_cattle"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/addFarmInfoTextView"
+        android:id="@+id/addNewCattleTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
         android:gravity="center"
-        android:text="@string/add_farm_info"
+        android:text="@string/add_new_cattle"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/addFarmInfoImageView" />
+        app:layout_constraintTop_toBottomOf="@id/addNewCattleImageView" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 
   <androidx.constraintlayout.widget.ConstraintLayout
-      android:id="@+id/farmOverviewLayout"
+      android:id="@+id/cattleListLayout"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toEndOf="@id/addFarmInfoLayout"
-      app:layout_constraintTop_toTopOf="@id/addFarmInfoLayout">
+      app:layout_constraintStart_toEndOf="@id/addNewCattleLayout"
+      app:layout_constraintTop_toTopOf="@id/addNewCattleLayout">
 
     <ImageView
-        android:id="@+id/farmOverviewImageView"
+        android:id="@+id/cattleListImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:contentDescription="@string/farm_overview"
+        android:contentDescription="@string/cattle_list"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/farmOverviewTextView"
+        android:id="@+id/cattleListTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
         android:gravity="center"
-        android:text="@string/farm_overview"
+        android:text="@string/cattle_list"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/farmOverviewImageView" />
+        app:layout_constraintTop_toBottomOf="@id/cattleListImageView" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 
   <androidx.constraintlayout.widget.ConstraintLayout
-      android:id="@+id/expenseLayout"
+      android:id="@+id/milkProductionLayout"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="48dp"
-      app:layout_constraintEnd_toStartOf="@id/incomeLayout"
+      app:layout_constraintEnd_toStartOf="@id/weightTrackerLayout"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@id/addFarmInfoLayout">
+      app:layout_constraintTop_toBottomOf="@id/addNewCattleLayout">
 
     <ImageView
-        android:id="@+id/expenseImageView"
+        android:id="@+id/milkProductionImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:contentDescription="@string/expense"
+        android:contentDescription="@string/milk_production"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/expenseTextView"
+        android:id="@+id/milkProductionTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
         android:gravity="center"
-        android:text="@string/expense"
+        android:text="@string/milk_production"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/expenseImageView" />
+        app:layout_constraintTop_toBottomOf="@id/milkProductionImageView" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 
   <androidx.constraintlayout.widget.ConstraintLayout
-      android:id="@+id/incomeLayout"
+      android:id="@+id/weightTrackerLayout"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toEndOf="@id/expenseLayout"
-      app:layout_constraintTop_toTopOf="@id/expenseLayout">
+      app:layout_constraintStart_toEndOf="@id/milkProductionLayout"
+      app:layout_constraintTop_toTopOf="@id/milkProductionLayout">
 
     <ImageView
-        android:id="@+id/incomeImageView"
+        android:id="@+id/weightTrackerImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:contentDescription="@string/income"
+        android:contentDescription="@string/weight_tracker"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/incomeTextView"
+        android:id="@+id/weightTrackerTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
         android:gravity="center"
-        android:text="@string/income"
+        android:text="@string/weight_tracker"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/incomeImageView" />
+        app:layout_constraintTop_toBottomOf="@id/weightTrackerImageView" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 
   <androidx.constraintlayout.widget.ConstraintLayout
-      android:id="@+id/farmInspectionLayout"
+      android:id="@+id/deathRecordLayout"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="48dp"
-      app:layout_constraintEnd_toStartOf="@id/incomeLayout"
+      app:layout_constraintEnd_toStartOf="@id/weightTrackerLayout"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@id/expenseLayout">
+      app:layout_constraintTop_toBottomOf="@id/milkProductionLayout">
 
     <ImageView
-        android:id="@+id/farmInspectionImageView"
+        android:id="@+id/deathRecordImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:contentDescription="@string/farm_inspection"
+        android:contentDescription="@string/death_record"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/farmInspectionTextView"
+        android:id="@+id/deathRecordTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
         android:gravity="center"
-        android:text="@string/farm_inspection"
+        android:text="@string/death_record"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/farmInspectionImageView" />
+        app:layout_constraintTop_toBottomOf="@id/deathRecordImageView" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 
   <androidx.constraintlayout.widget.ConstraintLayout
-      android:id="@+id/vaccineLayout"
+      android:id="@+id/heatNotificationLayout"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toEndOf="@id/farmInspectionLayout"
-      app:layout_constraintTop_toTopOf="@id/farmInspectionLayout">
+      app:layout_constraintStart_toEndOf="@id/deathRecordLayout"
+      app:layout_constraintTop_toTopOf="@id/deathRecordLayout">
 
     <ImageView
-        android:id="@+id/vaccineImageView"
+        android:id="@+id/heatNotificationImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:contentDescription="@string/vaccine_and_deworming_calendar"
+        android:contentDescription="@string/heat_notification_alert"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/vaccineTextView"
+        android:id="@+id/heatNotificationTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
         android:gravity="center"
-        android:text="@string/vaccine_and_deworming_calendar"
+        android:text="@string/heat_notification_alert"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/vaccineImageView" />
+        app:layout_constraintTop_toBottomOf="@id/heatNotificationImageView" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
