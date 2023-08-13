@@ -1,5 +1,6 @@
 package com.datasense.cattlesense.ui.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
   private fun initViews() {
     binding.farmInfoLayout.setOnClickListener {
-
+      startActivity(Intent(this, FarmInfoActivity::class.java))
     }
 
     binding.cattleInfoLayout.setOnClickListener {

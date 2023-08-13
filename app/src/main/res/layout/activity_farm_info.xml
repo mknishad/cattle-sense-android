@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.FarmInfoActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/farmOverviewLayout"
+        android:id="@+id/addFarmInfoLayout"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/addFarmInfoImageView"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@mipmap/ic_launcher"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:contentDescription="@string/add_farm_info" />
+
+      <TextView
+          android:id="@+id/addFarmInfoTextView"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginVertical="8dp"
+          android:gravity="center"
+          android:text="@string/add_farm_info"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/addFarmInfoImageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintStart_toEndOf="@id/addFarmInfoLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/farmOverviewLayout"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/farmOverviewImageView"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@mipmap/ic_launcher"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:contentDescription="@string/farm_overview" />
+
+      <TextView
+          android:id="@+id/farmOverviewTextView"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginVertical="8dp"
+          android:gravity="center"
+          android:text="@string/farm_overview"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/farmOverviewImageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addFarmInfoLayout"
+        app:layout_constraintEnd_toStartOf="@id/incomeLayout"
+        android:id="@+id/expenseLayout"
+        android:layout_marginTop="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/expenseImageView"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@mipmap/ic_launcher"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:contentDescription="@string/expense" />
+
+      <TextView
+          android:id="@+id/expenseTextView"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginVertical="8dp"
+          android:gravity="center"
+          android:text="@string/expense"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/expenseImageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintStart_toEndOf="@id/expenseLayout"
+        app:layout_constraintTop_toBottomOf="@id/farmOverviewLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/incomeLayout"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/incomeImageView"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@mipmap/ic_launcher"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:contentDescription="@string/income" />
+
+      <TextView
+          android:id="@+id/incomeTextView"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginVertical="8dp"
+          android:gravity="center"
+          android:text="@string/income"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/incomeImageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/expenseLayout"
+        app:layout_constraintEnd_toStartOf="@id/incomeLayout"
+        android:id="@+id/farmInspectionLayout"
+        android:layout_marginTop="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/farmInspectionImageView"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@mipmap/ic_launcher"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:contentDescription="@string/farm_inspection" />
+
+      <TextView
+          android:id="@+id/farmInspectionTextView"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginVertical="8dp"
+          android:gravity="center"
+          android:text="@string/farm_inspection"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/farmInspectionImageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintStart_toEndOf="@id/expenseLayout"
+        app:layout_constraintTop_toBottomOf="@id/incomeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/vaccineLayout"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/vaccineImageView"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@mipmap/ic_launcher"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:contentDescription="@string/vaccine_and_deworming_calendar" />
+
+      <TextView
+          android:id="@+id/vaccineTextView"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginVertical="8dp"
+          android:gravity="center"
+          android:text="@string/vaccine_and_deworming_calendar"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/vaccineImageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,4 +6,10 @@
   <string name="cattle_info">Cattle Info</string>
   <string name="cattle_health">Cattle Health</string>
   <string name="search_cattle">Search Cattle</string>
+  <string name="add_farm_info">Add Farm Info</string>
+  <string name="farm_overview">Farm Overview</string>
+  <string name="expense">Expense</string>
+  <string name="income">Income</string>
+  <string name="farm_inspection">Farm Inspection</string>
+  <string name="vaccine_and_deworming_calendar">Vaccine and Deworming Calendar</string>
 </resources>
