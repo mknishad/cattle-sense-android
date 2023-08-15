@@ -13,6 +13,9 @@
       android:theme="@style/Theme.CattleSense"
       tools:targetApi="31">
     <activity
+        android:name=".ui.activity.CattleHealthActivity"
+        android:exported="false" />
+    <activity
         android:name=".ui.activity.CattleInfoActivity"
         android:exported="false" />
     <activity
