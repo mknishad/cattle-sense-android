@@ -1,10 +1,9 @@
 package com.datasense.cattlesense.ui.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import com.datasense.cattlesense.R
+import androidx.appcompat.app.AppCompatActivity
 import com.datasense.cattlesense.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -30,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     binding.cattleHealthLayout.setOnClickListener {
-
+      startActivity(Intent(this, CattleHealthActivity::class.java))
     }
 
     binding.searchCattleLayout.setOnClickListener {

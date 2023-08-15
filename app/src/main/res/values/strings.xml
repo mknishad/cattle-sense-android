@@ -18,4 +18,10 @@
   <string name="weight_tracker">Weight Tracker</string>
   <string name="death_record">Death Record</string>
   <string name="heat_notification_alert">Heat Notification Alert</string>
+  <string name="vaccination">Vaccination</string>
+  <string name="diseases">Diseases</string>
+  <string name="insemination_history">Insemination History</string>
+  <string name="infected_cattle_list">Infected Cattle List</string>
+  <string name="inseminated_cattle_list">Inseminated Cattle List</string>
+  <string name="pregnant_cattle_list">Pregnant Cattle List</string>
 </resources>
