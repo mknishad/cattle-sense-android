@@ -24,4 +24,14 @@
   <string name="infected_cattle_list">Infected Cattle List</string>
   <string name="inseminated_cattle_list">Inseminated Cattle List</string>
   <string name="pregnant_cattle_list">Pregnant Cattle List</string>
+  <string name="submit">Submit</string>
+  <string name="farm_name">Farm Name</string>
+  <string name="owner_name">Owner Name</string>
+  <string name="owner_nid">Owner NID</string>
+  <string name="your_registered_number">Your Registered Number</string>
+  <string name="alternative_number">Alternative Number</string>
+  <string name="farm_address">Farm Address</string>
+  <string name="farm_description">Farm Description</string>
+  <string name="no_of_cattle">No of Cattle</string>
+  <string name="please_provide_farm_related_information">Please provide farm related information</string>
 </resources>

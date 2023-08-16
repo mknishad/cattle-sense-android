@@ -1,27 +1,19 @@
 package com.datasense.cattlesense.ui.activity
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import com.datasense.cattlesense.databinding.ActivityFarmInfoBinding
+import com.datasense.cattlesense.databinding.ActivityAddFarmInfoBinding
 
-class FarmInfoActivity : AppCompatActivity() {
+class AddFarmInfoActivity : AppCompatActivity() {
 
-  private lateinit var binding: ActivityFarmInfoBinding
+  private lateinit var binding: ActivityAddFarmInfoBinding
+
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    binding = ActivityFarmInfoBinding.inflate(layoutInflater)
+    binding = ActivityAddFarmInfoBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-    initViews()
-  }
-
-  private fun initViews() {
-    binding.addFarmInfoLayout.setOnClickListener {
-      startActivity(Intent(this, AddFarmInfoActivity::class.java))
-    }
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
