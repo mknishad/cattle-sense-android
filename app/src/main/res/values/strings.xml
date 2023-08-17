@@ -34,4 +34,13 @@
   <string name="farm_description">Farm Description</string>
   <string name="no_of_cattle">No of Cattle</string>
   <string name="please_provide_farm_related_information">Please provide farm related information</string>
+  <string name="please_provide_expense_related_information">Please provide expense related information</string>
+  <string name="date_of_expense">Date of Expense</string>
+  <string name="category_of_expense">Category of Expense</string>
+  <string name="amount_spent">Amount Spent</string>
+  <string name="payment_method">Payment Method</string>
+  <string name="receipt_invoice_number">Receipt/Invoice Number</string>
+  <string name="vendor_supplier">Vendor/Supplier</string>
+  <string name="additional_notes_or_remarks">Additional notes or remarks</string>
+  <string name="invoice_photo">Invoice Photo</string>
 </resources>
