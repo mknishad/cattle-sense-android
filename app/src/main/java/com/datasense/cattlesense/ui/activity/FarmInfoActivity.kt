@@ -26,6 +26,10 @@ class FarmInfoActivity : AppCompatActivity() {
     binding.expenseLayout.setOnClickListener {
       startActivity(Intent(this, AddExpenseActivity::class.java))
     }
+
+    binding.incomeLayout.setOnClickListener {
+      startActivity(Intent(this, AddIncomeActivity::class.java))
+    }
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
