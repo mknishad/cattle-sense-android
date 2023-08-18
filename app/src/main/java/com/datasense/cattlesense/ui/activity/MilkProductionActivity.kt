@@ -1,28 +1,19 @@
 package com.datasense.cattlesense.ui.activity
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import com.datasense.cattlesense.databinding.ActivityCattleInfoBinding
+import com.datasense.cattlesense.databinding.ActivityMilkProductionBinding
 
-class CattleInfoActivity : AppCompatActivity() {
+class MilkProductionActivity : AppCompatActivity() {
 
-  private lateinit var binding: ActivityCattleInfoBinding
+  private lateinit var binding: ActivityMilkProductionBinding
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    binding = ActivityCattleInfoBinding.inflate(layoutInflater)
+    binding = ActivityMilkProductionBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-    initViews()
-  }
-
-  private fun initViews() {
-    binding.milkProductionLayout.setOnClickListener {
-      startActivity(Intent(this, MilkProductionActivity::class.java))
-    }
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {

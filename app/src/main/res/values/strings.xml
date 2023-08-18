@@ -37,6 +37,7 @@
   <string name="please_provide_expense_related_information">Please provide expense related information</string>
   <string name="please_provide_income_related_information">Please provide income related information</string>
   <string name="please_provide_inspection_related_information">Please provide inspection related information</string>
+  <string name="please_provide_milk_production_information">Please provide milk production information</string>
   <string name="date_of_expense">Date of Expense</string>
   <string name="date_of_income">Date of Income</string>
   <string name="category_of_expense">Category of Expense</string>
@@ -57,4 +58,11 @@
   <string name="lighting_inquiry">Lighting Inquiry</string>
   <string name="safety_measures">Safety Measures</string>
   <string name="inspector_name">Inspector Name</string>
+  <string name="cattle_id_autofill_nfc">Cattle ID (Autofill NFC)</string>
+  <string name="date">Date</string>
+  <string name="milking_cycle_count">Milking Cycle Count</string>
+  <string name="milk_production_amount">Milk Production Amount</string>
+  <string name="milking_method">Milking Method</string>
+  <string name="person_in_charge">Person In-Charge</string>
+  <string name="notification_will_be_sent_to_the_farmer_daily">* Notification will be sent to the farmer daily</string>
 </resources>

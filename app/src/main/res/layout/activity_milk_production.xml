@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MilkProductionActivity">
+
+  <ScrollView
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/please_provide_milk_production_information" />
+
+      <EditText
+          android:id="@+id/cattleIDEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="username"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/cattle_id_autofill_nfc"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/dateEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="creditCardExpirationDate"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/date"
+          android:inputType="date" />
+
+      <EditText
+          android:id="@+id/milkingCycleEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="creditCardNumber"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/milking_cycle_count"
+          android:inputType="number" />
+
+      <EditText
+          android:id="@+id/amountEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="creditCardNumber"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/milk_production_amount"
+          android:inputType="numberDecimal" />
+
+      <EditText
+          android:id="@+id/milkingMethodEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/milking_method"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/personInChargeEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/person_in_charge"
+          android:inputType="textPersonName" />
+
+      <EditText
+          android:id="@+id/notesEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/additional_notes_or_remarks"
+          android:inputType="text" />
+
+      <Button
+          android:id="@+id/submitButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="16dp"
+          android:paddingHorizontal="32dp"
+          android:paddingVertical="16dp"
+          android:text="@string/submit" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginVertical="16dp"
+          android:text="@string/notification_will_be_sent_to_the_farmer_daily" />
+    </LinearLayout>
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
