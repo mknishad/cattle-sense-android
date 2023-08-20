@@ -31,6 +31,10 @@ class CattleInfoActivity : AppCompatActivity() {
     binding.deathRecordLayout.setOnClickListener {
       startActivity(Intent(this, DeathRecordActivity::class.java))
     }
+
+    binding.heatNotificationLayout.setOnClickListener {
+      startActivity(Intent(this, HeatInfoActivity::class.java))
+    }
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {

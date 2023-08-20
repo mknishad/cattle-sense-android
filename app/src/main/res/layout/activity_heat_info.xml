@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.DeathRecordActivity">
+    tools:context=".ui.activity.HeatInfoActivity">
 
   <ScrollView
       android:layout_width="0dp"
@@ -23,7 +23,7 @@
       <TextView
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:text="@string/please_provide_death_record_information" />
+          android:text="@string/please_provide_cattle_s_last_heat_information" />
 
       <EditText
           android:id="@+id/cattleIDEditText"
@@ -36,82 +36,44 @@
           android:inputType="text" />
 
       <EditText
-          android:id="@+id/dateEditText"
+          android:id="@+id/heatStatusEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/heat_status"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/symptomsEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/symptoms"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/heatDateEditText"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardExpirationDate"
           android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/date_of_death"
+          android:hint="@string/date_of_heat"
           android:inputType="date" />
 
       <EditText
-          android:id="@+id/timeEditText"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_marginTop="8dp"
-          android:autofillHints="creditCardExpirationDate"
-          android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/time_of_death"
-          android:inputType="time" />
-
-      <EditText
-          android:id="@+id/causeEditText"
+          android:id="@+id/observerNameEditText"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
           android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/cause_of_death"
-          android:inputType="text" />
-
-      <EditText
-          android:id="@+id/healthHistoryEditText"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_marginTop="8dp"
-          android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/health_history"
-          android:inputType="text" />
-
-      <EditText
-          android:id="@+id/actionsTakenEditText"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_marginTop="8dp"
-          android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/actions_taken"
-          android:inputType="text" />
-
-      <EditText
-          android:id="@+id/disposalMethodEditText"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/disposal_method"
-          android:inputType="text" />
-
-      <EditText
-          android:id="@+id/witnessesEditText"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/witnesses"
+          android:hint="@string/observer_s_name"
           android:inputType="textPersonName" />
-
-      <EditText
-          android:id="@+id/lossAmountEditText"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_marginTop="8dp"
-          android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/approx_loss_amount"
-          android:inputType="number" />
 
       <EditText
           android:id="@+id/notesEditText"
@@ -137,7 +99,7 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginVertical="16dp"
-          android:text="@string/notification_will_be_sent_to_the_authority" />
+          android:text="@string/a_notification_will_be_sent_to_the_in_charge" />
     </LinearLayout>
   </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
