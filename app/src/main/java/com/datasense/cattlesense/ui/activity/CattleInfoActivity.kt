@@ -23,6 +23,10 @@ class CattleInfoActivity : AppCompatActivity() {
     binding.milkProductionLayout.setOnClickListener {
       startActivity(Intent(this, MilkProductionActivity::class.java))
     }
+
+    binding.weightTrackerLayout.setOnClickListener {
+      startActivity(Intent(this, WeightTrackerActivity::class.java))
+    }
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {

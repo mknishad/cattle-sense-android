@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.WeightTrackerActivity">
+
+  <ScrollView
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/please_provide_cattle_fattening_information" />
+
+      <EditText
+          android:id="@+id/cattleIDEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="username"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/cattle_id_autofill_nfc"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/dateEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="creditCardExpirationDate"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/date"
+          android:inputType="date" />
+
+      <EditText
+          android:id="@+id/weightEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="creditCardNumber"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/current_live_weight_kg"
+          android:inputType="number" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/length_in"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/lengthEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="@string/a_to_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/girth_in"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/girthEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="C" />
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/calculateButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="8dp"
+          android:text="@string/calculate" />
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:contentDescription="@string/app_name"
+          android:src="@mipmap/ic_launcher" />
+
+      <EditText
+          android:id="@+id/personInChargeEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/person_in_charge"
+          android:inputType="textPersonName" />
+
+      <EditText
+          android:id="@+id/notesEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/additional_notes_or_remarks"
+          android:inputType="text" />
+
+      <Button
+          android:id="@+id/submitButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="16dp"
+          android:paddingHorizontal="32dp"
+          android:paddingVertical="16dp"
+          android:text="@string/submit" />
+    </LinearLayout>
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
