@@ -1,28 +1,19 @@
 package com.datasense.cattlesense.ui.activity
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import com.datasense.cattlesense.databinding.ActivityCattleHealthBinding
+import com.datasense.cattlesense.databinding.ActivityVaccinationBinding
 
-class CattleHealthActivity : AppCompatActivity() {
+class VaccinationActivity : AppCompatActivity() {
 
-  private lateinit var binding: ActivityCattleHealthBinding
+  private lateinit var binding: ActivityVaccinationBinding
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    binding = ActivityCattleHealthBinding.inflate(layoutInflater)
+    binding = ActivityVaccinationBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-    initViews()
-  }
-
-  private fun initViews() {
-    binding.vaccinationLayout.setOnClickListener {
-      startActivity(Intent(this, VaccinationActivity::class.java))
-    }
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {

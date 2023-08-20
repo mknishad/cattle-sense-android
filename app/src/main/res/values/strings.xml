@@ -41,6 +41,7 @@
   <string name="please_provide_cattle_fattening_information">Please provide cattle fattening information</string>
   <string name="please_provide_death_record_information">Please provide death record information</string>
   <string name="please_provide_cattle_s_last_heat_information">Please provide cattle\'s last heat information</string>
+  <string name="please_provide_vaccine_related_information">Please provide vaccine related information</string>
   <string name="date_of_expense">Date of Expense</string>
   <string name="date_of_income">Date of Income</string>
   <string name="category_of_expense">Category of Expense</string>
@@ -70,6 +71,7 @@
   <string name="notification_will_be_sent_to_the_farmer_daily">* Notification will be sent to the farmer daily</string>
   <string name="notification_will_be_sent_to_the_authority">* Notification will be sent to the authority</string>
   <string name="a_notification_will_be_sent_to_the_in_charge">* A notification will be sent to the In-Charge after 21 days to heat check</string>
+  <string name="notification_will_be_sent_based_on_the_dose">* Notification will be sent based on the dose</string>
   <string name="current_live_weight_kg">Current Live Weight (KG)</string>
   <string name="a_to_b">A to B</string>
   <string name="girth_in">Girth (in)</string>
@@ -87,4 +89,10 @@
   <string name="symptoms">Symptoms</string>
   <string name="date_of_heat">Date of Heat</string>
   <string name="observer_s_name">Observer\'s Name</string>
+  <string name="list_of_cattle_vaccines">List of Cattle Vaccines</string>
+  <string name="vaccination_method">Vaccination Method</string>
+  <string name="vaccination_company">Vaccination Company</string>
+  <string name="vaccine_batch_number">Vaccine Batch Number</string>
+  <string name="date_of_vaccination">Date of Vaccination</string>
+  <string name="vaccinator_s_name">Vaccinator\'s Name</string>
 </resources>
