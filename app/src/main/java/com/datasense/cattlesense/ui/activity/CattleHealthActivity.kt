@@ -23,6 +23,10 @@ class CattleHealthActivity : AppCompatActivity() {
     binding.vaccinationLayout.setOnClickListener {
       startActivity(Intent(this, VaccinationActivity::class.java))
     }
+
+    binding.diseasesLayout.setOnClickListener {
+      startActivity(Intent(this, DiseasesActivity::class.java))
+    }
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {

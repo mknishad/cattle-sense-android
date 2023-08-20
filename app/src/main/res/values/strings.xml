@@ -42,6 +42,7 @@
   <string name="please_provide_death_record_information">Please provide death record information</string>
   <string name="please_provide_cattle_s_last_heat_information">Please provide cattle\'s last heat information</string>
   <string name="please_provide_vaccine_related_information">Please provide vaccine related information</string>
+  <string name="please_provide_disease_related_information">Please provide disease related information</string>
   <string name="date_of_expense">Date of Expense</string>
   <string name="date_of_income">Date of Income</string>
   <string name="category_of_expense">Category of Expense</string>
@@ -95,4 +96,11 @@
   <string name="vaccine_batch_number">Vaccine Batch Number</string>
   <string name="date_of_vaccination">Date of Vaccination</string>
   <string name="vaccinator_s_name">Vaccinator\'s Name</string>
+  <string name="list_of_cattle_diseases">List of Cattle Diseases</string>
+  <string name="date_of_onset">Date of Onset</string>
+  <string name="preventive_measures">Preventive Measures</string>
+  <string name="medication">Medication</string>
+  <string name="treatment_provider">Treatment Provider</string>
+  <string name="change_shade_no">Change Shade No</string>
+  <string name="visible_symptom">Visible Symptom</string>
 </resources>
