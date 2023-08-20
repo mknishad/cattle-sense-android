@@ -66,9 +66,18 @@
   <string name="milking_method">Milking Method</string>
   <string name="person_in_charge">Person In-Charge</string>
   <string name="notification_will_be_sent_to_the_farmer_daily">* Notification will be sent to the farmer daily</string>
+  <string name="notification_will_be_sent_to_the_authority">* Notification will be sent to the authority</string>
   <string name="current_live_weight_kg">Current Live Weight (KG)</string>
   <string name="a_to_b">A to B</string>
   <string name="girth_in">Girth (in)</string>
   <string name="length_in">Length (in)</string>
   <string name="calculate">Calculate</string>
+  <string name="date_of_death">Date of Death</string>
+  <string name="time_of_death">Time of Death</string>
+  <string name="cause_of_death">Cause of Death</string>
+  <string name="health_history">Health History</string>
+  <string name="actions_taken">Actions Taken</string>
+  <string name="disposal_method">Disposal Method</string>
+  <string name="witnesses">Witnesses</string>
+  <string name="approx_loss_amount">Approx. Loss Amount</string>
 </resources>

@@ -27,6 +27,10 @@ class CattleInfoActivity : AppCompatActivity() {
     binding.weightTrackerLayout.setOnClickListener {
       startActivity(Intent(this, WeightTrackerActivity::class.java))
     }
+
+    binding.deathRecordLayout.setOnClickListener {
+      startActivity(Intent(this, DeathRecordActivity::class.java))
+    }
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
