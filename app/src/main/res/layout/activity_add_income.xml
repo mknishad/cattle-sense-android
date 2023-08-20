@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.AddIncomeActivity">
+
+  <ScrollView
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+      <TextView
+          android:text="@string/please_provide_income_related_information"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+      <EditText
+          android:id="@+id/incomeDateEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:autofillHints="creditCardExpirationDate"
+          android:layout_marginTop="8dp"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/date_of_income"
+          android:inputType="date" />
+
+      <EditText
+          android:id="@+id/incomeSourceEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/source_of_income"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/amountEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="creditCardNumber"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/amount_spent"
+          android:inputType="number" />
+
+      <EditText
+          android:id="@+id/paymentMethodEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="phone"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/payment_method"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/receiptEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:autofillHints="username"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/receipt_invoice_number"
+          android:inputType="number" />
+
+      <EditText
+          android:id="@+id/customerNameEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/name_of_the_customer"
+          android:inputType="textPersonName" />
+
+      <EditText
+          android:id="@+id/notesEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/additional_notes_or_remarks"
+          android:inputType="text" />
+
+      <ImageView
+          android:id="@+id/invoiceImageView"
+          android:layout_gravity="center"
+          android:layout_marginTop="16dp"
+          android:src="@android:drawable/ic_menu_gallery"
+          android:layout_width="200dp"
+          android:layout_height="200dp"/>
+
+      <TextView
+          android:layout_gravity="center"
+          android:layout_marginTop="8dp"
+          android:textSize="16sp"
+          android:text="@string/invoice_photo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <Button
+          android:id="@+id/submitButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="16dp"
+          android:layout_marginBottom="16dp"
+          android:paddingHorizontal="32dp"
+          android:paddingVertical="16dp"
+          android:text="@string/submit" />
+    </LinearLayout>
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

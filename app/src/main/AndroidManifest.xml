@@ -13,6 +13,39 @@
       android:theme="@style/Theme.CattleSense"
       tools:targetApi="31">
     <activity
+        android:name=".ui.activity.InseminationActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.DiseasesActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.VaccinationActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.HeatInfoActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.DeathRecordActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.WeightTrackerActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.MilkProductionActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.FarmInspectionActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.AddIncomeActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.AddExpenseActivity"
+        android:exported="false" />
+    <activity
+        android:name=".ui.activity.AddFarmInfoActivity"
+        android:exported="false" />
+    <activity
         android:name=".ui.activity.CattleHealthActivity"
         android:exported="false" />
     <activity
