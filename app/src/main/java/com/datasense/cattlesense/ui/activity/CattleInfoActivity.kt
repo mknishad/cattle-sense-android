@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.datasense.cattlesense.R
 import com.datasense.cattlesense.databinding.ActivityCattleInfoBinding
 
 class CattleInfoActivity : AppCompatActivity() {
@@ -15,6 +16,7 @@ class CattleInfoActivity : AppCompatActivity() {
     binding = ActivityCattleInfoBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    supportActionBar?.title = getString(R.string.cattle_info)
 
     initViews()
   }

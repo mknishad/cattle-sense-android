@@ -3,6 +3,7 @@ package com.datasense.cattlesense.ui.activity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.datasense.cattlesense.R
 import com.datasense.cattlesense.databinding.ActivityWeightTrackerBinding
 
 class WeightTrackerActivity : AppCompatActivity() {
@@ -14,6 +15,7 @@ class WeightTrackerActivity : AppCompatActivity() {
     binding = ActivityWeightTrackerBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    supportActionBar?.title = getString(R.string.weight_tracker)
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {

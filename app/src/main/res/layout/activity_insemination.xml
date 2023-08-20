@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.HeatInfoActivity">
+    tools:context=".ui.activity.InseminationActivity">
 
   <ScrollView
       android:layout_width="0dp"
@@ -23,7 +23,7 @@
       <TextView
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:text="@string/please_provide_cattle_s_last_heat_information" />
+          android:text="@string/please_provide_insemination_related_information" />
 
       <EditText
           android:id="@+id/cattleIDEditText"
@@ -36,54 +36,63 @@
           android:inputType="text" />
 
       <EditText
-          android:id="@+id/heatStatusEditText"
+          android:id="@+id/inseminationTypeEditText"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
           android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/heat_status"
+          android:hint="@string/insemination_type"
           android:inputType="text" />
 
       <EditText
-          android:id="@+id/symptomsEditText"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_marginTop="8dp"
-          android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/symptoms"
-          android:inputType="text" />
-
-      <EditText
-          android:id="@+id/heatDateEditText"
+          android:id="@+id/inseminationDateEditText"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardExpirationDate"
           android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/date_of_heat"
+          android:hint="@string/insemination_date"
           android:inputType="date" />
 
       <EditText
-          android:id="@+id/observerNameEditText"
+          android:id="@+id/aiTechniqueEditText"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
           android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/observer_s_name"
-          android:inputType="textPersonName" />
+          android:hint="@string/ai_technique"
+          android:inputType="text" />
 
       <EditText
-          android:id="@+id/notesEditText"
+          android:id="@+id/semenSourceEditText"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
           android:drawableStart="@android:drawable/ic_menu_edit"
-          android:hint="@string/additional_notes_or_remarks"
+          android:hint="@string/semen_source"
           android:inputType="text" />
+
+      <EditText
+          android:id="@+id/semenBatchEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/semen_batch_bull_number"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/aiTechnicianNameEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/ai_technician_s_name"
+          android:inputType="textPersonName" />
 
       <Button
           android:id="@+id/submitButton"
@@ -99,7 +108,7 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginVertical="16dp"
-          android:text="@string/a_notification_will_be_sent_to_the_in_charge_after_21_days" />
+          android:text="@string/a_notification_will_be_sent_to_the_in_charge_after_60_days" />
     </LinearLayout>
   </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

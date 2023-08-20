@@ -3,6 +3,7 @@ package com.datasense.cattlesense.ui.activity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.datasense.cattlesense.R
 import com.datasense.cattlesense.databinding.ActivityAddIncomeBinding
 
 class AddIncomeActivity : AppCompatActivity() {
@@ -14,6 +15,7 @@ class AddIncomeActivity : AppCompatActivity() {
     binding = ActivityAddIncomeBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    supportActionBar?.title = getString(R.string.income)
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {

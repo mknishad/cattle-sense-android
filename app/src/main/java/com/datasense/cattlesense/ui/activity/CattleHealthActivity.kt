@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.datasense.cattlesense.R
 import com.datasense.cattlesense.databinding.ActivityCattleHealthBinding
 
 class CattleHealthActivity : AppCompatActivity() {
@@ -15,6 +16,7 @@ class CattleHealthActivity : AppCompatActivity() {
     binding = ActivityCattleHealthBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    supportActionBar?.title = getString(R.string.cattle_health)
 
     initViews()
   }
@@ -26,6 +28,10 @@ class CattleHealthActivity : AppCompatActivity() {
 
     binding.diseasesLayout.setOnClickListener {
       startActivity(Intent(this, DiseasesActivity::class.java))
+    }
+
+    binding.inseminationLayout.setOnClickListener {
+      startActivity(Intent(this, InseminationActivity::class.java))
     }
   }
 

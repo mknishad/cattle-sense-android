@@ -3,6 +3,7 @@ package com.datasense.cattlesense.ui.activity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.datasense.cattlesense.R
 import com.datasense.cattlesense.databinding.ActivityDeathRecordBinding
 
 class DeathRecordActivity : AppCompatActivity() {
@@ -14,6 +15,7 @@ class DeathRecordActivity : AppCompatActivity() {
     binding = ActivityDeathRecordBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    supportActionBar?.title = getString(R.string.death_record)
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {

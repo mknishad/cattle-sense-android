@@ -3,6 +3,7 @@ package com.datasense.cattlesense.ui.activity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.datasense.cattlesense.R
 import com.datasense.cattlesense.databinding.ActivityHeatInfoBinding
 
 class HeatInfoActivity : AppCompatActivity() {
@@ -14,6 +15,7 @@ class HeatInfoActivity : AppCompatActivity() {
     binding = ActivityHeatInfoBinding.inflate(layoutInflater)
     setContentView(binding.root)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    supportActionBar?.title = getString(R.string.heat_info)
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
