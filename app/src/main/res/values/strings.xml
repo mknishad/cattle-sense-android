@@ -113,4 +113,19 @@
   <string name="semen_source">Semen Source</string>
   <string name="semen_batch_bull_number">Semen Batch / Bull Number</string>
   <string name="ai_technician_s_name">AI Technician\'s Name</string>
+  <string name="total_cattle">Total Cattle</string>
+  <string name="no_of_bulls">No of Bulls</string>
+  <string name="no_of_cows">No of Cows</string>
+  <string name="no_of_calves">No of Calves</string>
+  <string name="no_of_heifers">No of Heifers</string>
+  <string name="infected">Infected</string>
+  <string name="milk_prod_day">Milk Prod/Day</string>
+  <string name="expense_m">Expense/M</string>
+  <string name="income_m">Income/M</string>
+  <string name="more_information_about_the_farm">More information about the farm</string>
+  <string name="owner_name_">Owner Name:</string>
+  <string name="address_">Address:</string>
+  <string name="contact_no_">Contact No:</string>
+  <string name="chart">Chart</string>
+  <string name="generate_report">Generate Report</string>
 </resources>
