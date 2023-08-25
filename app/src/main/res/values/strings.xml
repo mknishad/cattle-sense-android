@@ -128,4 +128,9 @@
   <string name="contact_no_">Contact No:</string>
   <string name="chart">Chart</string>
   <string name="generate_report">Generate Report</string>
+  <string name="report_option">Report Option</string>
+  <string name="weekly">Weekly</string>
+  <string name="monthly">Monthly</string>
+  <string name="yearly">Yearly</string>
+  <string name="download_pdf">Download PDF</string>
 </resources>
