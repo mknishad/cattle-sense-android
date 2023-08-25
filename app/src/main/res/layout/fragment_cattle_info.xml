@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.CattleInfoFragment">
+
+  <ScrollView
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/please_provide_cattle_related_information" />
+
+      <EditText
+          android:id="@+id/cattleNameEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/cattle_name"
+          android:inputType="textPersonName" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dobEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:autofillHints="creditCardExpirationDate"
+            android:drawableStart="@android:drawable/ic_menu_edit"
+            android:hint="@string/date_of_birth"
+            android:inputType="date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/or"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/yearEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:autofillHints="creditCardNumber"
+            android:hint="@string/year"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/monthEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:autofillHints="creditCardNumber"
+            android:hint="@string/month"
+            android:inputType="number" />
+      </LinearLayout>
+
+      <EditText
+          android:id="@+id/breedTypeEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/breed_type"
+          android:inputType="textPersonName" />
+
+      <EditText
+          android:id="@+id/genderEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/gender"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/registrationDateEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="creditCardExpirationDate"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/date_of_registration"
+          android:inputType="date" />
+
+      <EditText
+          android:id="@+id/liveWeightEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:autofillHints="creditCardNumber"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/live_weight_kg"
+          android:inputType="number" />
+
+      <EditText
+          android:id="@+id/shadeNoEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="creditCardNumber"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/shade_no"
+          android:inputType="number" />
+
+      <EditText
+          android:id="@+id/cattleGroupEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/cattle_group"
+          android:inputType="text" />
+
+      <EditText
+          android:id="@+id/previousOwnershipEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/cattle_previous_ownership"
+          android:inputType="textPersonName" />
+
+      <EditText
+          android:id="@+id/approxPriceEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="creditCardNumber"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/approx_price_during_onbaord"
+          android:inputType="number" />
+
+      <EditText
+          android:id="@+id/parentNameEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:autofillHints="name"
+          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:hint="@string/parent_cattle_name"
+          android:inputType="textPersonName" />
+
+      <Button
+          android:id="@+id/nextButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="16dp"
+          android:layout_marginBottom="16dp"
+          android:paddingHorizontal="32dp"
+          android:paddingVertical="16dp"
+          android:text="@string/next" />
+    </LinearLayout>
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

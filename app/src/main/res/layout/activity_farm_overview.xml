@@ -521,8 +521,9 @@
             app:cardCornerRadius="50dp">
 
           <androidx.constraintlayout.widget.ConstraintLayout
-              android:layout_width="match_parent"
+              android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_gravity="center"
               android:layout_marginHorizontal="16dp"
               android:layout_marginVertical="8dp"
               android:orientation="vertical">
@@ -538,7 +539,7 @@
 
             <TextView
                 android:id="@+id/expenseTextView"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/expense"
@@ -549,7 +550,7 @@
 
             <TextView
                 android:id="@+id/chartTextView"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/chart"

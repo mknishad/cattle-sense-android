@@ -46,6 +46,7 @@
   <string name="please_provide_vaccine_related_information">Please provide vaccine related information</string>
   <string name="please_provide_disease_related_information">Please provide disease related information</string>
   <string name="please_provide_insemination_related_information">Please provide insemination related information</string>
+  <string name="please_provide_cattle_related_information">Please provide cattle related information</string>
   <string name="date_of_expense">Date of Expense</string>
   <string name="date_of_income">Date of Income</string>
   <string name="category_of_expense">Category of Expense</string>
@@ -133,4 +134,20 @@
   <string name="monthly">Monthly</string>
   <string name="yearly">Yearly</string>
   <string name="download_pdf">Download PDF</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="cattle_name">Cattle Name</string>
+  <string name="date_of_birth">Date of Birth</string>
+  <string name="or">Or</string>
+  <string name="year">Year</string>
+  <string name="month">Month</string>
+  <string name="breed_type">Breed Type</string>
+  <string name="gender">Gender</string>
+  <string name="date_of_registration">Date of Registration</string>
+  <string name="live_weight_kg">Live Weight (KG)</string>
+  <string name="cattle_group">Cattle Group</string>
+  <string name="cattle_previous_ownership">Cattle Previous Ownership</string>
+  <string name="approx_price_during_onbaord">Approx. Price During Onbaord</string>
+  <string name="parent_cattle_name">Parent Cattle Name</string>
+  <string name="next">Next</string>
 </resources>
