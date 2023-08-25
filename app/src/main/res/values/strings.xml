@@ -47,6 +47,7 @@
   <string name="please_provide_disease_related_information">Please provide disease related information</string>
   <string name="please_provide_insemination_related_information">Please provide insemination related information</string>
   <string name="please_provide_cattle_related_information">Please provide cattle related information</string>
+  <string name="please_provide_more_cattle_related_information">Please provide more cattle related information</string>
   <string name="date_of_expense">Date of Expense</string>
   <string name="date_of_income">Date of Income</string>
   <string name="category_of_expense">Category of Expense</string>
@@ -150,4 +151,15 @@
   <string name="approx_price_during_onbaord">Approx. Price During Onbaord</string>
   <string name="parent_cattle_name">Parent Cattle Name</string>
   <string name="next">Next</string>
+  <string name="disease_record">Disease Record</string>
+  <string name="vaccination_record">Vaccination Record</string>
+  <string name="last_insemination_history">Last Insemination History</string>
+  <string name="previous_no_of_calf_birth">Previous No of Calf Birth</string>
+  <string name="milk_production_liter_day">Milk Production (Liter/Day)</string>
+  <string name="treatment_history">Treatment History</string>
+  <string name="medicine_history">Medicine History</string>
+  <string name="last_deworming_history">Last Deworming History</string>
+  <string name="left">Left</string>
+  <string name="front">Front</string>
+  <string name="right">Right</string>
 </resources>

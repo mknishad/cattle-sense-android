@@ -1,4 +1,4 @@
-package com.datasense.cattlesense.ui.activity
+package com.datasense.cattlesense.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
