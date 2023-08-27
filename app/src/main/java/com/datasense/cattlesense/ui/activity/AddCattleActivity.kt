@@ -5,6 +5,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.datasense.cattlesense.R
 import com.datasense.cattlesense.databinding.ActivityAddCattleBinding
+import com.datasense.cattlesense.ui.fragment.CattleRegistrationSuccessfulFragment
 import com.datasense.cattlesense.ui.fragment.MoreCattleInfoFragment
 
 class AddCattleActivity : AppCompatActivity() {
@@ -19,9 +20,16 @@ class AddCattleActivity : AppCompatActivity() {
     supportActionBar?.title = getString(R.string.add_cattle)
   }
 
-  fun goToNext() {
+  fun goToMoreCattleInfoFragment() {
     val transaction = supportFragmentManager.beginTransaction()
     transaction.replace(R.id.fragmentContainerView, MoreCattleInfoFragment.newInstance("", ""))
+    transaction.addToBackStack(MoreCattleInfoFragment.TAG)
+    transaction.commit()
+  }
+
+  fun goToSuccessfulFragment() {
+    val transaction = supportFragmentManager.beginTransaction()
+    transaction.replace(R.id.fragmentContainerView, CattleRegistrationSuccessfulFragment.newInstance("", ""))
     transaction.addToBackStack(MoreCattleInfoFragment.TAG)
     transaction.commit()
   }

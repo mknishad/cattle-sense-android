@@ -163,4 +163,8 @@
   <string name="left">Left</string>
   <string name="front">Front</string>
   <string name="right">Right</string>
+  <string name="congratulations">Congratulations!</string>
+  <string name="new_cattle_registration_successful">New Cattle Registration Successful</string>
+  <string name="cattle_id">Cattle ID</string>
+  <string name="write_nfc">Write NFC</string>
 </resources>

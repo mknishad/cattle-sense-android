@@ -50,7 +50,7 @@ class CattleInfoFragment : Fragment() {
 
   private fun initViews() {
     binding.nextButton.setOnClickListener {
-      (activity as AddCattleActivity).goToNext()
+      (activity as AddCattleActivity).goToMoreCattleInfoFragment()
     }
   }
 
