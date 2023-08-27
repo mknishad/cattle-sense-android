@@ -49,6 +49,8 @@ class MoreCattleInfoFragment : Fragment() {
   }
 
   companion object {
+    const val TAG = "MoreCattleInfoFragment"
+
     /**
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.

@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.datasense.cattlesense.databinding.FragmentCattleInfoBinding
+import com.datasense.cattlesense.ui.activity.AddCattleActivity
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -44,7 +45,13 @@ class CattleInfoFragment : Fragment() {
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
 
+    initViews()
+  }
 
+  private fun initViews() {
+    binding.nextButton.setOnClickListener {
+      (activity as AddCattleActivity).goToNext()
+    }
   }
 
   companion object {

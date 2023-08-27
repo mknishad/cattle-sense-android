@@ -13,6 +13,7 @@
   <string name="farm_inspection">Farm Inspection</string>
   <string name="vaccine_and_deworming_calendar">Vaccine and Deworming Calendar</string>
   <string name="add_new_cattle">Add New Cattle</string>
+  <string name="add_cattle">Add Cattle</string>
   <string name="cattle_list">Cattle List</string>
   <string name="milk_production">Milk Production</string>
   <string name="weight_tracker">Weight Tracker</string>
