@@ -25,6 +25,10 @@ class FarmInfoActivity : AppCompatActivity() {
       startActivity(Intent(this, AddFarmInfoActivity::class.java))
     }
 
+    binding.farmOverviewLayout.setOnClickListener {
+      startActivity(Intent(this, FarmOverviewActivity::class.java))
+    }
+
     binding.expenseLayout.setOnClickListener {
       startActivity(Intent(this, AddExpenseActivity::class.java))
     }

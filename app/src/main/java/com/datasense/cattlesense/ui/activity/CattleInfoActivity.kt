@@ -22,6 +22,10 @@ class CattleInfoActivity : AppCompatActivity() {
   }
 
   private fun initViews() {
+    binding.addNewCattleLayout.setOnClickListener {
+      startActivity(Intent(this, AddCattleActivity::class.java))
+    }
+
     binding.milkProductionLayout.setOnClickListener {
       startActivity(Intent(this, MilkProductionActivity::class.java))
     }
