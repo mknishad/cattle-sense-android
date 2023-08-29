@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/specialtyItemCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="20dp">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/cattleImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/cattle_list"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cattleIdCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        app:cardBackgroundColor="@android:color/holo_orange_dark"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cattleImageView"
+        app:layout_constraintTop_toTopOf="parent">
+
+      <TextView
+          android:id="@+id/cattleIdTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="8dp"
+          android:layout_marginVertical="4dp"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:text="ID: ABCDEFGHIJKLMNOP"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cattleNameCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:cardBackgroundColor="@android:color/holo_orange_light"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cattleImageView"
+        app:layout_constraintTop_toBottomOf="@id/cattleIdCardView">
+
+      <TextView
+          android:id="@+id/cattleNameTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="8dp"
+          android:layout_marginVertical="4dp"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:text="Name: Bella"
+          android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cattleGenderCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:cardBackgroundColor="@android:color/holo_orange_light"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toStartOf="@id/cattleBreedCardView"
+        app:layout_constraintStart_toEndOf="@id/cattleImageView"
+        app:layout_constraintTop_toBottomOf="@id/cattleNameCardView">
+
+      <TextView
+          android:id="@+id/cattleGenderTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="8dp"
+          android:layout_marginVertical="4dp"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:text="Gender: Cow"
+          android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cattleBreedCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:cardBackgroundColor="@android:color/holo_orange_light"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cattleGenderCardView"
+        app:layout_constraintTop_toBottomOf="@id/cattleNameCardView">
+
+      <TextView
+          android:id="@+id/cattleBreedTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="8dp"
+          android:layout_marginVertical="4dp"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:text="Breed: Holstein"
+          android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cattleAgeCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:cardBackgroundColor="@android:color/holo_orange_light"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toStartOf="@id/cattleBreedCardView"
+        app:layout_constraintStart_toEndOf="@id/cattleImageView"
+        app:layout_constraintTop_toBottomOf="@id/cattleGenderCardView">
+
+      <TextView
+          android:id="@+id/cattleAgeTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="8dp"
+          android:layout_marginVertical="4dp"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:text="Age: 3Y 2M"
+          android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shadeNoCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:cardBackgroundColor="@android:color/holo_orange_light"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cattleGenderCardView"
+        app:layout_constraintTop_toBottomOf="@id/cattleBreedCardView">
+
+      <TextView
+          android:id="@+id/shadeNoTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="8dp"
+          android:layout_marginVertical="4dp"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:text="Shade No: 3"
+          android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
