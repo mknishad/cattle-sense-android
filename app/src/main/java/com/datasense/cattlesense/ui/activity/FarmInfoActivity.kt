@@ -21,23 +21,23 @@ class FarmInfoActivity : AppCompatActivity() {
   }
 
   private fun initViews() {
-    binding.addFarmInfoLayout.setOnClickListener {
+    binding.addFarmInfoCard.setOnClickListener {
       startActivity(Intent(this, AddFarmInfoActivity::class.java))
     }
 
-    binding.farmOverviewLayout.setOnClickListener {
+    binding.farmOverviewCard.setOnClickListener {
       startActivity(Intent(this, FarmOverviewActivity::class.java))
     }
 
-    binding.expenseLayout.setOnClickListener {
+    binding.expenseCard.setOnClickListener {
       startActivity(Intent(this, AddExpenseActivity::class.java))
     }
 
-    binding.incomeLayout.setOnClickListener {
+    binding.incomeCard.setOnClickListener {
       startActivity(Intent(this, AddIncomeActivity::class.java))
     }
 
-    binding.farmInspectionLayout.setOnClickListener {
+    binding.farmInspectionCard.setOnClickListener {
       startActivity(Intent(this, FarmInspectionActivity::class.java))
     }
   }

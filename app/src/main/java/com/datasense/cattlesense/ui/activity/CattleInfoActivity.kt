@@ -22,23 +22,27 @@ class CattleInfoActivity : AppCompatActivity() {
   }
 
   private fun initViews() {
-    binding.addNewCattleLayout.setOnClickListener {
+    binding.addNewCattleCard.setOnClickListener {
       startActivity(Intent(this, AddCattleActivity::class.java))
     }
 
-    binding.milkProductionLayout.setOnClickListener {
+    binding.cattleListCard.setOnClickListener {
+      startActivity(Intent(this, CattleListActivity::class.java))
+    }
+
+    binding.milkProductionCard.setOnClickListener {
       startActivity(Intent(this, MilkProductionActivity::class.java))
     }
 
-    binding.weightTrackerLayout.setOnClickListener {
+    binding.weightTrackerCard.setOnClickListener {
       startActivity(Intent(this, WeightTrackerActivity::class.java))
     }
 
-    binding.deathRecordLayout.setOnClickListener {
+    binding.deathRecordCard.setOnClickListener {
       startActivity(Intent(this, DeathRecordActivity::class.java))
     }
 
-    binding.heatNotificationLayout.setOnClickListener {
+    binding.heatNotificationCard.setOnClickListener {
       startActivity(Intent(this, HeatInfoActivity::class.java))
     }
   }
