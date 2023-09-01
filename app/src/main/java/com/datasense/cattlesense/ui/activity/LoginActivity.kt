@@ -1,9 +1,8 @@
 package com.datasense.cattlesense.ui.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.datasense.cattlesense.R
+import androidx.appcompat.app.AppCompatActivity
 import com.datasense.cattlesense.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -21,6 +20,7 @@ class LoginActivity : AppCompatActivity() {
   private fun initViews() {
     binding.loginButton.setOnClickListener {
       startActivity(Intent(this, MainActivity::class.java))
+      finish()
     }
   }
 }

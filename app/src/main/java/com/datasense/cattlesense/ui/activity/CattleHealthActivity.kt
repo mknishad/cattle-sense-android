@@ -22,15 +22,15 @@ class CattleHealthActivity : AppCompatActivity() {
   }
 
   private fun initViews() {
-    binding.vaccinationLayout.setOnClickListener {
+    binding.vaccinationCard.setOnClickListener {
       startActivity(Intent(this, VaccinationActivity::class.java))
     }
 
-    binding.diseasesLayout.setOnClickListener {
+    binding.diseasesCard.setOnClickListener {
       startActivity(Intent(this, DiseasesActivity::class.java))
     }
 
-    binding.inseminationLayout.setOnClickListener {
+    binding.inseminationCard.setOnClickListener {
       startActivity(Intent(this, InseminationActivity::class.java))
     }
   }
