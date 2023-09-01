@@ -21,7 +21,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/vaccination"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_cattle_health"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,7 +54,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/diseases"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_diseases"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -88,7 +88,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/insemination_history"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_insemination_history"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -121,7 +121,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/infected_cattle_list"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_infected_list"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -155,7 +155,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/inseminated_cattle_list"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_inseminated_list"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -188,7 +188,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/pregnant_cattle_list"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_pregnant_list"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

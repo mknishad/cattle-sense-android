@@ -21,9 +21,9 @@
       android:layout_marginTop="64dp"
       android:text="@string/app_name"
       android:textSize="40sp"
-      app:layout_constraintTop_toTopOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent" />
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
   <androidx.constraintlayout.widget.ConstraintLayout
       android:id="@+id/farmInfoLayout"
@@ -38,11 +38,11 @@
         android:id="@+id/farmInfoImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/farm_info"
+        android:src="@drawable/ic_farm_info"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/farm_info" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/farmInfoTextView"
@@ -71,11 +71,11 @@
         android:id="@+id/cattleInfoImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/cattle_info"
+        android:src="@drawable/ic_cattle_info"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/cattle_info" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/cattleInfoTextView"
@@ -105,11 +105,11 @@
         android:id="@+id/cattleHealthImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/cattle_health"
+        android:src="@drawable/ic_cattle_health"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/cattle_health" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/cattleHealthTextView"
@@ -138,11 +138,11 @@
         android:id="@+id/searchCattleImageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/search_cattle"
+        android:src="@drawable/ic_search_cattle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/search_cattle" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/searchCattleTextView"

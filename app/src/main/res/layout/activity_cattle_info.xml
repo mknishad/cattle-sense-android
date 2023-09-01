@@ -21,7 +21,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/add_new_cattle"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_add_info"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,7 +54,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/cattle_list"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_cattle_info"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -88,7 +88,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/milk_production"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_milk_production"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -121,7 +121,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/weight_tracker"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_weight_tracker"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -155,7 +155,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/death_record"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_death_record"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -188,7 +188,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:contentDescription="@string/heat_notification_alert"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_heat_notification"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
