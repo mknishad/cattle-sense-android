@@ -31,7 +31,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/cattle_name"
           android:inputType="textPersonName" />
 
@@ -47,7 +48,8 @@
             android:layout_marginTop="8dp"
             android:layout_weight="1"
             android:autofillHints="creditCardExpirationDate"
-            android:drawableStart="@android:drawable/ic_menu_edit"
+            android:drawableStart="@drawable/ic_calendar"
+            android:drawablePadding="8dp"
             android:hint="@string/date_of_birth"
             android:inputType="date" />
 
@@ -88,7 +90,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/breed_type"
           android:inputType="textPersonName" />
 
@@ -98,7 +101,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/gender"
           android:inputType="text" />
 
@@ -108,7 +112,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardExpirationDate"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_calendar"
+          android:drawablePadding="8dp"
           android:hint="@string/date_of_registration"
           android:inputType="date" />
 
@@ -117,7 +122,8 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_id"
+          android:drawablePadding="8dp"
           android:hint="@string/live_weight_kg"
           android:inputType="number" />
 
@@ -127,7 +133,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_location"
+          android:drawablePadding="8dp"
           android:hint="@string/shade_no"
           android:inputType="number" />
 
@@ -137,7 +144,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/cattle_group"
           android:inputType="text" />
 
@@ -147,7 +155,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_location"
+          android:drawablePadding="8dp"
           android:hint="@string/cattle_previous_ownership"
           android:inputType="textPersonName" />
 
@@ -157,7 +166,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_money"
+          android:drawablePadding="8dp"
           android:hint="@string/approx_price_during_onbaord"
           android:inputType="number" />
 
@@ -167,7 +177,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/parent_cattle_name"
           android:inputType="textPersonName" />
 

@@ -31,7 +31,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="username"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/cattle_id_autofill_nfc"
           android:inputType="text" />
 
@@ -41,7 +42,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardExpirationDate"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_calendar"
+          android:drawablePadding="8dp"
           android:hint="@string/date"
           android:inputType="date" />
 
@@ -51,7 +53,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/milking_cycle_count"
           android:inputType="number" />
 
@@ -61,7 +64,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_id"
+          android:drawablePadding="8dp"
           android:hint="@string/milk_production_amount"
           android:inputType="numberDecimal" />
 
@@ -70,7 +74,8 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_id"
+          android:drawablePadding="8dp"
           android:hint="@string/milking_method"
           android:inputType="text" />
 
@@ -80,7 +85,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_person"
+          android:drawablePadding="8dp"
           android:hint="@string/person_in_charge"
           android:inputType="textPersonName" />
 
@@ -90,7 +96,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_note"
+          android:drawablePadding="8dp"
           android:hint="@string/additional_notes_or_remarks"
           android:inputType="text" />
 

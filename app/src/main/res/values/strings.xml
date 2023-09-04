@@ -168,4 +168,6 @@
   <string name="cattle_id">Cattle ID</string>
   <string name="write_nfc">Write NFC</string>
   <string name="cattle_n_sense">Cattle\nSense</string>
+  <string name="username">Username</string>
+  <string name="password">Password</string>
 </resources>

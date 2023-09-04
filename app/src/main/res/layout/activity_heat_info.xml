@@ -31,7 +31,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="username"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/cattle_id_autofill_nfc"
           android:inputType="text" />
 
@@ -41,7 +42,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/heat_status"
           android:inputType="text" />
 
@@ -51,7 +53,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_note"
+          android:drawablePadding="8dp"
           android:hint="@string/symptoms"
           android:inputType="text" />
 
@@ -61,7 +64,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardExpirationDate"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_calendar"
+          android:drawablePadding="8dp"
           android:hint="@string/date_of_heat"
           android:inputType="date" />
 
@@ -71,7 +75,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_person"
+          android:drawablePadding="8dp"
           android:hint="@string/observer_s_name"
           android:inputType="textPersonName" />
 
@@ -81,7 +86,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_note"
+          android:drawablePadding="8dp"
           android:hint="@string/additional_notes_or_remarks"
           android:inputType="text" />
 

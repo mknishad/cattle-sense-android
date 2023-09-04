@@ -480,7 +480,7 @@
                 android:id="@+id/incomeChartImageView"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@mipmap/ic_launcher"
+                android:src="@drawable/ic_chart"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -532,7 +532,7 @@
                 android:id="@+id/expenseChartImageView"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@mipmap/ic_launcher"
+                android:src="@drawable/ic_chart"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -584,7 +584,7 @@
               android:id="@+id/generateReportImageView"
               android:layout_width="56dp"
               android:layout_height="56dp"
-              android:src="@mipmap/ic_launcher"
+              android:src="@drawable/ic_report"
               app:layout_constraintBottom_toBottomOf="parent"
               app:layout_constraintStart_toStartOf="parent"
               app:layout_constraintTop_toTopOf="parent" />

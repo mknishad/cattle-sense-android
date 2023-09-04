@@ -31,7 +31,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="username"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/cattle_id_autofill_nfc"
           android:inputType="text" />
 
@@ -41,7 +42,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardExpirationDate"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_calendar"
+          android:drawablePadding="8dp"
           android:hint="@string/date"
           android:inputType="date" />
 
@@ -51,7 +53,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_id"
+          android:drawablePadding="8dp"
           android:hint="@string/current_live_weight_kg"
           android:inputType="number" />
 
@@ -115,7 +118,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_person"
+          android:drawablePadding="8dp"
           android:hint="@string/person_in_charge"
           android:inputType="textPersonName" />
 
@@ -125,7 +129,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_note"
+          android:drawablePadding="8dp"
           android:hint="@string/additional_notes_or_remarks"
           android:inputType="text" />
 

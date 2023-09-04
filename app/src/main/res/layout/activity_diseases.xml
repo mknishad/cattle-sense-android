@@ -31,7 +31,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="username"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/cattle_id_autofill_nfc"
           android:inputType="text" />
 
@@ -41,7 +42,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/list_of_cattle_diseases"
           android:inputType="textPersonName" />
 
@@ -51,7 +53,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_note"
+          android:drawablePadding="8dp"
           android:hint="@string/symptoms"
           android:inputType="text" />
 
@@ -61,7 +64,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardExpirationDate"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_calendar"
+          android:drawablePadding="8dp"
           android:hint="@string/date_of_onset"
           android:inputType="date" />
 
@@ -70,7 +74,8 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_id"
+          android:drawablePadding="8dp"
           android:hint="@string/preventive_measures"
           android:inputType="text" />
 
@@ -80,7 +85,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_id"
+          android:drawablePadding="8dp"
           android:hint="@string/medication"
           android:inputType="text" />
 
@@ -90,7 +96,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_person"
+          android:drawablePadding="8dp"
           android:hint="@string/treatment_provider"
           android:inputType="textPersonName" />
 
@@ -100,25 +107,27 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_farm"
+          android:drawablePadding="8dp"
           android:hint="@string/change_shade_no"
           android:inputType="number" />
 
       <ImageView
           android:id="@+id/symptomImageView"
+          android:layout_width="200dp"
+          android:layout_height="200dp"
           android:layout_gravity="center"
           android:layout_marginTop="16dp"
-          android:src="@android:drawable/ic_menu_gallery"
-          android:layout_width="200dp"
-          android:layout_height="200dp"/>
+          android:src="@drawable/ic_add_photo"
+          app:tint="@android:color/darker_gray" />
 
       <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
           android:layout_gravity="center"
           android:layout_marginTop="8dp"
-          android:textSize="16sp"
           android:text="@string/visible_symptom"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"/>
+          android:textSize="16sp" />
 
       <Button
           android:id="@+id/submitButton"
