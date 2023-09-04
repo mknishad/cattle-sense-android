@@ -21,17 +21,18 @@
         android:orientation="vertical">
 
       <TextView
-          android:text="@string/please_provide_farm_related_information"
           android:layout_width="match_parent"
-          android:layout_height="wrap_content"/>
+          android:layout_height="wrap_content"
+          android:text="@string/please_provide_farm_related_information" />
 
       <EditText
           android:id="@+id/farmNameEditText"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:autofillHints="name"
           android:layout_marginTop="8dp"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:autofillHints="name"
+          android:drawableStart="@drawable/ic_farm"
+          android:drawablePadding="8dp"
           android:hint="@string/farm_name"
           android:inputType="textPersonName" />
 
@@ -41,7 +42,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_person"
+          android:drawablePadding="8dp"
           android:hint="@string/owner_name"
           android:inputType="textPersonName" />
 
@@ -51,7 +53,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_id"
+          android:drawablePadding="8dp"
           android:hint="@string/owner_nid"
           android:inputType="number" />
 
@@ -61,7 +64,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="phone"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_bd_flag"
+          android:drawablePadding="8dp"
           android:hint="@string/your_registered_number"
           android:inputType="phone" />
 
@@ -70,7 +74,8 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:autofillHints="phone"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_bd_flag"
+          android:drawablePadding="8dp"
           android:hint="@string/alternative_number"
           android:inputType="phone" />
 
@@ -80,7 +85,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="postalAddress"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_location"
+          android:drawablePadding="8dp"
           android:hint="@string/farm_address"
           android:inputType="textPostalAddress" />
 
@@ -90,7 +96,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_note"
+          android:drawablePadding="8dp"
           android:hint="@string/farm_description"
           android:inputType="text" />
 
@@ -100,7 +107,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_cattle_head"
+          android:drawablePadding="8dp"
           android:hint="@string/no_of_cattle"
           android:inputType="number" />
 

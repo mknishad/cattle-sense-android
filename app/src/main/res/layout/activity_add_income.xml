@@ -31,7 +31,8 @@
           android:layout_height="wrap_content"
           android:autofillHints="creditCardExpirationDate"
           android:layout_marginTop="8dp"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_calendar"
+          android:drawablePadding="8dp"
           android:hint="@string/date_of_income"
           android:inputType="date" />
 
@@ -41,7 +42,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_report"
+          android:drawablePadding="8dp"
           android:hint="@string/source_of_income"
           android:inputType="text" />
 
@@ -51,7 +53,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="creditCardNumber"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_money"
+          android:drawablePadding="8dp"
           android:hint="@string/amount_spent"
           android:inputType="number" />
 
@@ -61,7 +64,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="phone"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_payment"
+          android:drawablePadding="8dp"
           android:hint="@string/payment_method"
           android:inputType="text" />
 
@@ -70,7 +74,8 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:autofillHints="username"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_id"
+          android:drawablePadding="8dp"
           android:hint="@string/receipt_invoice_number"
           android:inputType="number" />
 
@@ -80,7 +85,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_location"
+          android:drawablePadding="8dp"
           android:hint="@string/name_of_the_customer"
           android:inputType="textPersonName" />
 
@@ -90,7 +96,8 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="8dp"
           android:autofillHints="name"
-          android:drawableStart="@android:drawable/ic_menu_edit"
+          android:drawableStart="@drawable/ic_note"
+          android:drawablePadding="8dp"
           android:hint="@string/additional_notes_or_remarks"
           android:inputType="text" />
 
@@ -98,9 +105,10 @@
           android:id="@+id/invoiceImageView"
           android:layout_gravity="center"
           android:layout_marginTop="16dp"
-          android:src="@android:drawable/ic_menu_gallery"
+          android:src="@drawable/ic_add_photo"
           android:layout_width="200dp"
-          android:layout_height="200dp"/>
+          android:layout_height="200dp"
+          app:tint="@android:color/darker_gray" />
 
       <TextView
           android:layout_gravity="center"
